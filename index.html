@@ -34,11 +34,12 @@ h1 span{color:var(--gold);display:block}
 .tile .bd{font-size:17px;font-weight:700;opacity:.88;margin-top:6px}
 .tile .go{position:absolute;right:20px;top:20px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;font-size:24px}
 @media(max-width:560px){.tile{min-height:190px;padding:16px;border-radius:18px}.tile svg{width:64px;height:64px}.tile .bd{font-size:15px}.tile .go{width:36px;height:36px;font-size:20px;right:14px;top:14px}}
-.maths{background:#12295F}.sci{background:#123B42}.geo{background:#2E7047}.his{background:#3E1B2B}
+.eng{background:#4A2A6B}.maths{background:#12295F}.sci{background:#123B42}.geo{background:#2E7047}.his{background:#3E1B2B}
+.grid>.tile:last-child:nth-child(odd){grid-column:1/-1;min-height:170px}
 .tip{margin-top:28px;background:rgba(255,255,255,.08);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:14px 16px;font-size:18px;color:#E3EAF6}
 .tip b{color:#fff}
 footer{margin-top:26px;font-size:15px;color:#9FB2D4}
-@media (prefers-reduced-motion:no-preference){.tile{animation:rise .5s both}.tile:nth-child(2){animation-delay:.07s}.tile:nth-child(3){animation-delay:.14s}.tile:nth-child(4){animation-delay:.21s}
+@media (prefers-reduced-motion:no-preference){.tile{animation:rise .5s both}.tile:nth-child(2){animation-delay:.07s}.tile:nth-child(3){animation-delay:.14s}.tile:nth-child(4){animation-delay:.21s}.tile:nth-child(5){animation-delay:.28s}
  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}}
 </style>
 </head>
@@ -51,6 +52,11 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
  <h1>The Peckham <span>Hub</span></h1>
  <p class="lead">Every GCSE revision app in one place. Tap a subject to start.</p>
  <div class="grid">
+  <a class="tile eng" href="https://geographyhub.github.io/HAP_ENGLISH_AQA/">
+   <span class="go" aria-hidden="true">&#8594;</span>
+   <svg viewBox="0 0 90 90" aria-hidden="true" fill="none" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"><path d="M45,22 C34,14 20,13 8,16 V74 C20,71 34,72 45,80 Z"/><path d="M45,22 C56,14 70,13 82,16 V74 C70,71 56,72 45,80 Z"/><line x1="16" y1="30" x2="36" y2="33" stroke-width="2.5"/><line x1="16" y1="42" x2="36" y2="45" stroke-width="2.5"/><line x1="16" y1="54" x2="36" y2="57" stroke-width="2.5"/><path d="M58,62 L74,24 L80,27 L64,65 L57,69 Z" fill="#E2B44B" stroke="#E2B44B" stroke-width="2"/></svg>
+   <div><div class="nm">English</div><div class="bd">AQA English Language and Literature</div></div>
+  </a>
   <a class="tile maths" href="https://geographyhub.github.io/Harris_Maths_AQAGCSE_app/">
    <span class="go" aria-hidden="true">&#8594;</span>
    <svg viewBox="0 0 90 90" aria-hidden="true"><g stroke="rgba(255,255,255,.22)"><line x1="15" y1="5" x2="15" y2="85"/><line x1="30" y1="5" x2="30" y2="85"/><line x1="45" y1="5" x2="45" y2="85"/><line x1="60" y1="5" x2="60" y2="85"/><line x1="75" y1="5" x2="75" y2="85"/><line x1="5" y1="15" x2="85" y2="15"/><line x1="5" y1="30" x2="85" y2="30"/><line x1="5" y1="45" x2="85" y2="45"/><line x1="5" y1="60" x2="85" y2="60"/><line x1="5" y1="75" x2="85" y2="75"/></g><line x1="5" y1="72" x2="85" y2="72" stroke="#fff" stroke-width="2.5"/><line x1="22" y1="5" x2="22" y2="85" stroke="#fff" stroke-width="2.5"/><path d="M8,8 Q45,130 82,8" fill="none" stroke="#F4B740" stroke-width="5" stroke-linecap="round"/></svg>
