@@ -55,6 +55,10 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
 .yr .go{background:rgba(0,0,0,.4)}
 .yr .num,.yr .nm,.yr .bd{text-shadow:0 2px 10px rgba(0,0,0,.55)}
 .soon{border:2px dashed rgba(255,255,255,.5);cursor:default;filter:grayscale(.6)}.soon:hover{transform:none;border-color:rgba(255,255,255,.14)}
+.yr.c-english{background:linear-gradient(155deg,#7A4FA6 0%,#4A2A6B 75%)}
+.yr.c-maths{background:linear-gradient(155deg,#2E56A8 0%,#12295F 75%)}
+.yr.c-science{background:linear-gradient(155deg,#24727C 0%,#123B42 75%)}
+.yr.c-history{background:linear-gradient(155deg,#7A3552 0%,#3E1B2B 75%)}
 [hidden]{display:none!important}
 </style>
 </head>
@@ -68,35 +72,163 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
  <div id="home">
  <p class="lead">Every revision app in one place. Tap a subject to start.</p>
  <div class="grid">
-  <a class="tile eng" href="https://geographyhub.github.io/HAP_ENGLISH_AQA/">
+  <a class="tile eng" href="#english">
    <span class="go" aria-hidden="true">&#8594;</span>
    <svg viewBox="0 0 90 90" aria-hidden="true" fill="none" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"><path d="M45,22 C34,14 20,13 8,16 V74 C20,71 34,72 45,80 Z"/><path d="M45,22 C56,14 70,13 82,16 V74 C70,71 56,72 45,80 Z"/><line x1="16" y1="30" x2="36" y2="33" stroke-width="2.5"/><line x1="16" y1="42" x2="36" y2="45" stroke-width="2.5"/><line x1="16" y1="54" x2="36" y2="57" stroke-width="2.5"/><path d="M58,62 L74,24 L80,27 L64,65 L57,69 Z" fill="#E2B44B" stroke="#E2B44B" stroke-width="2"/></svg>
-   <div><div class="nm">English</div><div class="bd">AQA English Language and Literature</div></div>
+   <div><div class="nm">English</div><div class="bd">Years 7 to 11 · AQA at GCSE</div></div>
   </a>
-  <a class="tile maths" href="https://geographyhub.github.io/Harris_Maths_AQAGCSE_app/">
+  <a class="tile maths" href="#maths">
    <span class="go" aria-hidden="true">&#8594;</span>
    <svg viewBox="0 0 90 90" aria-hidden="true"><g stroke="rgba(255,255,255,.22)"><line x1="15" y1="5" x2="15" y2="85"/><line x1="30" y1="5" x2="30" y2="85"/><line x1="45" y1="5" x2="45" y2="85"/><line x1="60" y1="5" x2="60" y2="85"/><line x1="75" y1="5" x2="75" y2="85"/><line x1="5" y1="15" x2="85" y2="15"/><line x1="5" y1="30" x2="85" y2="30"/><line x1="5" y1="45" x2="85" y2="45"/><line x1="5" y1="60" x2="85" y2="60"/><line x1="5" y1="75" x2="85" y2="75"/></g><line x1="5" y1="72" x2="85" y2="72" stroke="#fff" stroke-width="2.5"/><line x1="22" y1="5" x2="22" y2="85" stroke="#fff" stroke-width="2.5"/><path d="M8,8 Q45,130 82,8" fill="none" stroke="#F4B740" stroke-width="5" stroke-linecap="round"/></svg>
-   <div><div class="nm">Maths</div><div class="bd">AQA GCSE 8300</div></div>
+   <div><div class="nm">Maths</div><div class="bd">Years 7 to 11 · AQA at GCSE</div></div>
   </a>
-  <a class="tile sci" href="https://geographyhub.github.io/HAP_GCSE_SCIENCE/">
+  <a class="tile sci" href="#science">
    <span class="go" aria-hidden="true">&#8594;</span>
    <svg viewBox="0 0 90 90" aria-hidden="true" fill="none" stroke="#fff" stroke-width="3.5"><ellipse cx="45" cy="45" rx="38" ry="14"/><ellipse cx="45" cy="45" rx="38" ry="14" transform="rotate(60 45 45)"/><ellipse cx="45" cy="45" rx="38" ry="14" transform="rotate(120 45 45)"/><circle cx="45" cy="45" r="8" fill="#F2C46D" stroke="none"/></svg>
-   <div><div class="nm">Science</div><div class="bd">AQA Combined Science: Trilogy</div></div>
+   <div><div class="nm">Science</div><div class="bd">Years 7 to 11 · AQA at GCSE</div></div>
   </a>
   <a class="tile geo" href="#geography">
    <span class="go" aria-hidden="true">&#8594;</span>
    <svg viewBox="0 0 90 90" aria-hidden="true" fill="none" stroke="#fff" stroke-width="3.5"><circle cx="45" cy="45" r="38"/><ellipse cx="45" cy="45" rx="16" ry="38"/><line x1="7" y1="45" x2="83" y2="45"/><path d="M13,26 H77 M13,64 H77"/></svg>
    <div><div class="nm">Geography</div><div class="bd">Years 7 to 11 · OCR B at GCSE</div></div>
   </a>
-  <a class="tile his" href="https://geographyhub.github.io/HAP_HISTORY_PEARSONEDEXCEL/">
+  <a class="tile his" href="#history">
    <span class="go" aria-hidden="true">&#8594;</span>
    <svg viewBox="0 0 90 90" aria-hidden="true" fill="none" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"><path d="M10,28 L45,10 L80,28 Z" fill="rgba(233,185,92,.9)" stroke="#E9B95C"/><line x1="12" y1="34" x2="78" y2="34"/><line x1="20" y1="40" x2="20" y2="72"/><line x1="35" y1="40" x2="35" y2="72"/><line x1="55" y1="40" x2="55" y2="72"/><line x1="70" y1="40" x2="70" y2="72"/><line x1="10" y1="78" x2="80" y2="78"/><line x1="6" y1="85" x2="84" y2="85"/></svg>
-   <div><div class="nm">History</div><div class="bd">Pearson Edexcel GCSE History</div></div>
+   <div><div class="nm">History</div><div class="bd">Years 7 to 11 · Edexcel at GCSE</div></div>
   </a>
  </div>
  <div class="tip"><b>Save it to your phone:</b> on an iPhone, tap Share then "Add to Home Screen". On Android, tap the menu (&#8942;) then "Add to Home screen". The Peckham Hub then opens like an app.</div>
  </div>
- <div id="geography" hidden>
+ <div id="english" class="screen" hidden>
+  <a class="back" href="#">&#8592; All subjects</a>
+  <h2 class="vh">English</h2>
+  <p class="lead">Choose your year group.</p>
+  <div class="grid years">
+   <div class="tile yr c-english soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">7</div>
+    <div><div class="nm">Year 7</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <div class="tile yr c-english soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">8</div>
+    <div><div class="nm">Year 8</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <div class="tile yr c-english soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">9</div>
+    <div><div class="nm">Year 9</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <a class="tile yr c-english" href="https://geographyhub.github.io/HAP_English_Year10/">
+    <span class="go" aria-hidden="true">&#8594;</span>
+    <div class="num">10</div>
+    <div><div class="nm">Year 10</div><div class="bd">GCSE · Year 10 mock</div></div>
+   </a>
+   <a class="tile yr c-english" href="https://geographyhub.github.io/HAP_ENGLISH_AQA/">
+    <span class="go" aria-hidden="true">&#8594;</span>
+    <div class="num">11</div>
+    <div><div class="nm">Year 11</div><div class="bd">AQA GCSE · November mock</div></div>
+   </a>
+  </div>
+ </div>
+ <div id="maths" class="screen" hidden>
+  <a class="back" href="#">&#8592; All subjects</a>
+  <h2 class="vh">Maths</h2>
+  <p class="lead">Choose your year group.</p>
+  <div class="grid years">
+   <div class="tile yr c-maths soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">7</div>
+    <div><div class="nm">Year 7</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <div class="tile yr c-maths soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">8</div>
+    <div><div class="nm">Year 8</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <div class="tile yr c-maths soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">9</div>
+    <div><div class="nm">Year 9</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <a class="tile yr c-maths" href="https://geographyhub.github.io/HAP_Maths_Year10/">
+    <span class="go" aria-hidden="true">&#8594;</span>
+    <div class="num">10</div>
+    <div><div class="nm">Year 10</div><div class="bd">GCSE · Year 10 mock</div></div>
+   </a>
+   <a class="tile yr c-maths" href="https://geographyhub.github.io/Harris_Maths_AQAGCSE_app/">
+    <span class="go" aria-hidden="true">&#8594;</span>
+    <div class="num">11</div>
+    <div><div class="nm">Year 11</div><div class="bd">AQA GCSE · November mock</div></div>
+   </a>
+  </div>
+ </div>
+ <div id="science" class="screen" hidden>
+  <a class="back" href="#">&#8592; All subjects</a>
+  <h2 class="vh">Science</h2>
+  <p class="lead">Choose your year group.</p>
+  <div class="grid years">
+   <div class="tile yr c-science soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">7</div>
+    <div><div class="nm">Year 7</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <div class="tile yr c-science soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">8</div>
+    <div><div class="nm">Year 8</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <div class="tile yr c-science soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">9</div>
+    <div><div class="nm">Year 9</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <a class="tile yr c-science" href="https://geographyhub.github.io/HAP_Science_Year10/">
+    <span class="go" aria-hidden="true">&#8594;</span>
+    <div class="num">10</div>
+    <div><div class="nm">Year 10</div><div class="bd">GCSE · Year 10 mock</div></div>
+   </a>
+   <a class="tile yr c-science" href="https://geographyhub.github.io/HAP_GCSE_SCIENCE/">
+    <span class="go" aria-hidden="true">&#8594;</span>
+    <div class="num">11</div>
+    <div><div class="nm">Year 11</div><div class="bd">AQA GCSE · November mock</div></div>
+   </a>
+  </div>
+ </div>
+ <div id="history" class="screen" hidden>
+  <a class="back" href="#">&#8592; All subjects</a>
+  <h2 class="vh">History</h2>
+  <p class="lead">Choose your year group.</p>
+  <div class="grid years">
+   <div class="tile yr c-history soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">7</div>
+    <div><div class="nm">Year 7</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <div class="tile yr c-history soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">8</div>
+    <div><div class="nm">Year 8</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <div class="tile yr c-history soon" aria-disabled="true">
+    <span class="go" aria-hidden="true">&#8230;</span>
+    <div class="num">9</div>
+    <div><div class="nm">Year 9</div><div class="bd">Key Stage 3 · Autumn Assessment · Coming soon</div></div>
+   </div>
+   <a class="tile yr c-history" href="https://geographyhub.github.io/HAP_History_Year10/">
+    <span class="go" aria-hidden="true">&#8594;</span>
+    <div class="num">10</div>
+    <div><div class="nm">Year 10</div><div class="bd">GCSE · Year 10 mock</div></div>
+   </a>
+   <a class="tile yr c-history" href="https://geographyhub.github.io/HAP_HISTORY_PEARSONEDEXCEL/">
+    <span class="go" aria-hidden="true">&#8594;</span>
+    <div class="num">11</div>
+    <div><div class="nm">Year 11</div><div class="bd">Edexcel GCSE · November mock</div></div>
+   </a>
+  </div>
+ </div>
+ <div id="geography" class="screen" hidden>
   <a class="back" href="#">&#8592; All subjects</a>
   <h2 class="vh">Geography</h2>
   <p class="lead">Choose your year group.</p>
@@ -132,8 +264,8 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
 </div>
 <script>
 (function(){
- var home=document.getElementById('home'),geo=document.getElementById('geography');
- function show(){var g=location.hash==='#geography';home.hidden=g;geo.hidden=!g;window.scrollTo(0,0);}
+ var home=document.getElementById('home'),screens=document.querySelectorAll('.screen');
+ function show(){var id=location.hash.slice(1),hit=false;screens.forEach(function(s){var on=s.id===id;s.hidden=!on;if(on)hit=true;});home.hidden=hit;window.scrollTo(0,0);}
  window.addEventListener('hashchange',show);show();
 })();
 </script>
