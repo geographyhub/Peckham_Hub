@@ -109,6 +109,15 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
 
 .yr.c-history .go{background:rgba(0,0,0,.4)}
 .yr.c-history .num,.yr.c-history .nm,.yr.c-history .bd{text-shadow:0 2px 10px rgba(0,0,0,.55)}
+
+.se{display:flex;align-items:center;gap:18px;margin:0 0 24px;padding:18px 20px;border-radius:20px;background:#fff;color:var(--navy);text-decoration:none;border:3px solid var(--gold);box-shadow:0 10px 28px rgba(0,0,0,.35);transition:transform .15s,box-shadow .15s}
+.se:hover,.se:focus-visible{transform:translateY(-3px);box-shadow:0 14px 32px rgba(0,0,0,.45);outline:none}
+.se svg{flex:0 0 auto;width:64px;height:64px}
+.se .st{font-family:'Archivo','Arial Black',Arial,sans-serif;font-weight:900;font-size:clamp(24px,5vw,34px);line-height:1.05}
+.se .ss{font-size:clamp(16px,2.4vw,19px);font-weight:700;color:#3A4F6B;margin-top:4px}
+.se .sg{margin-left:auto;flex:0 0 auto;width:48px;height:48px;border-radius:50%;background:var(--navy);color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px}
+.se.sub{padding:14px 18px;margin-bottom:20px}.se.sub svg{width:52px;height:52px}.se.sub .st{font-size:clamp(21px,4.4vw,28px)}
+@media(max-width:560px){.se{gap:12px;padding:14px}.se svg{width:48px;height:48px}.se .sg{width:40px;height:40px;font-size:20px}}
 </style>
 </head>
 <body>
@@ -120,6 +129,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
  <h1>The Peckham <span>Hub</span></h1>
  <div id="home">
  <p class="lead">Every revision app in one place. Tap a subject to start.</p>
+ <a class="se" data-se="home" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/><rect x="40" y="34" width="20" height="18" rx="3" fill="#102A43"/><path d="M44 34v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#102A43" stroke-width="3.5"/><circle cx="50" cy="43" r="2.6" fill="#F4B740"/></svg><div><div class="st">Student Essentials</div><div class="ss">Harris Federation revision resources. Log in with your school Microsoft account.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
  <div class="grid">
   <a class="tile eng" href="#english">
    <span class="go" aria-hidden="true">&#8594;</span>
@@ -163,6 +173,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
   <a class="back" href="#">&#8592; All subjects</a>
   <h2 class="vh">English</h2>
   <p class="lead">Choose your year group.</p>
+  <a class="se sub" data-se="english" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/><rect x="40" y="34" width="20" height="18" rx="3" fill="#102A43"/><path d="M44 34v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#102A43" stroke-width="3.5"/><circle cx="50" cy="43" r="2.6" fill="#F4B740"/></svg><div><div class="st">Student Essentials: English</div><div class="ss">Log in with your school Microsoft account.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
   <div class="grid years">
    <a class="tile yr c-english e7" href="https://geographyhub.github.io/HAP_English_Year7/">
     <span class="go" aria-hidden="true">&#8594;</span>
@@ -195,6 +206,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
   <a class="back" href="#">&#8592; All subjects</a>
   <h2 class="vh">Maths</h2>
   <p class="lead">Choose your year group.</p>
+  <a class="se sub" data-se="maths" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/><rect x="40" y="34" width="20" height="18" rx="3" fill="#102A43"/><path d="M44 34v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#102A43" stroke-width="3.5"/><circle cx="50" cy="43" r="2.6" fill="#F4B740"/></svg><div><div class="st">Student Essentials: Maths</div><div class="ss">Log in with your school Microsoft account.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
   <div class="grid years">
    <a class="tile yr c-maths mt7" href="https://geographyhub.github.io/HAP_Maths_Year7/">
     <span class="go" aria-hidden="true">&#8594;</span>
@@ -227,6 +239,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
   <a class="back" href="#">&#8592; All subjects</a>
   <h2 class="vh">Science</h2>
   <p class="lead">Choose your year group.</p>
+  <a class="se sub" data-se="science" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/><rect x="40" y="34" width="20" height="18" rx="3" fill="#102A43"/><path d="M44 34v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#102A43" stroke-width="3.5"/><circle cx="50" cy="43" r="2.6" fill="#F4B740"/></svg><div><div class="st">Student Essentials: Science</div><div class="ss">Log in with your school Microsoft account.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
   <div class="grid years">
    <a class="tile yr c-science sc7" href="https://geographyhub.github.io/HAP_Science_Year7/">
     <span class="go" aria-hidden="true">&#8594;</span>
@@ -259,6 +272,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
   <a class="back" href="#">&#8592; All subjects</a>
   <h2 class="vh">History</h2>
   <p class="lead">Choose your year group.</p>
+  <a class="se sub" data-se="history" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/></svg><div><div class="st">Harris Learning Hub: History</div><div class="ss">Federation GCSE History lessons.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
   <div class="grid years">
    <a class="tile yr c-history h7" href="https://geographyhub.github.io/HAP_History_Year7/">
     <span class="go" aria-hidden="true">&#8594;</span>
@@ -291,6 +305,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
   <a class="back" href="#">&#8592; All subjects</a>
   <h2 class="vh">Geography</h2>
   <p class="lead">Choose your year group.</p>
+  <a class="se sub" data-se="geography" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/><rect x="40" y="34" width="20" height="18" rx="3" fill="#102A43"/><path d="M44 34v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#102A43" stroke-width="3.5"/><circle cx="50" cy="43" r="2.6" fill="#F4B740"/></svg><div><div class="st">Student Essentials: Geography</div><div class="ss">Log in with your school Microsoft account.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
   <div class="grid years">
    <a class="tile yr y7" href="https://geographyhub.github.io/HAP_Year_7/">
     <span class="go" aria-hidden="true">&#8594;</span>
@@ -323,6 +338,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
   <a class="back" href="#">&#8592; All subjects</a>
   <h2 class="vh">Religious Education</h2>
   <p class="lead">Choose your year group.</p>
+  <a class="se sub" data-se="re" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/><rect x="40" y="34" width="20" height="18" rx="3" fill="#102A43"/><path d="M44 34v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#102A43" stroke-width="3.5"/><circle cx="50" cy="43" r="2.6" fill="#F4B740"/></svg><div><div class="st">Student Essentials: RE</div><div class="ss">Log in with your school Microsoft account.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
   <div class="grid years">
    <a class="tile yr c-re re7" href="https://geographyhub.github.io/HAP_RE_Year7/">
     <span class="go" aria-hidden="true">&#8594;</span>
@@ -372,6 +388,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
   <a class="back" href="#mfl">&#8592; Languages</a>
   <h2 class="vh">Spanish</h2>
   <p class="lead">Choose your year group.</p>
+  <a class="se sub" data-se="spanish" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/><rect x="40" y="34" width="20" height="18" rx="3" fill="#102A43"/><path d="M44 34v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#102A43" stroke-width="3.5"/><circle cx="50" cy="43" r="2.6" fill="#F4B740"/></svg><div><div class="st">Student Essentials: Spanish</div><div class="ss">Log in with your school Microsoft account.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
   <div class="grid years">
    <a class="tile yr c-es es7" href="https://geographyhub.github.io/HAP_MFL_Spanish/#y7">
     <span class="go" aria-hidden="true">&#8594;</span>
@@ -404,6 +421,7 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
   <a class="back" href="#mfl">&#8592; Languages</a>
   <h2 class="vh">French</h2>
   <p class="lead">Choose your year group.</p>
+  <a class="se sub" data-se="french" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="6" y="40" width="40" height="10" rx="2" fill="#102A43"/><rect x="10" y="28" width="36" height="10" rx="2" fill="#2E56A8"/><rect x="4" y="16" width="40" height="10" rx="2" fill="#F4B740"/><rect x="40" y="34" width="20" height="18" rx="3" fill="#102A43"/><path d="M44 34v-5a6 6 0 0 1 12 0v5" fill="none" stroke="#102A43" stroke-width="3.5"/><circle cx="50" cy="43" r="2.6" fill="#F4B740"/></svg><div><div class="st">Student Essentials: French</div><div class="ss">Log in with your school Microsoft account.</div></div><span class="sg" aria-hidden="true">&#8599;</span></a>
   <div class="grid years">
    <a class="tile yr c-fr fr7" href="https://geographyhub.github.io/HAP_MFL_French/#y7">
     <span class="go" aria-hidden="true">&#8594;</span>
@@ -435,6 +453,20 @@ footer{margin-top:26px;font-size:15px;color:#9FB2D4}
  <footer>Harris Academy Peckham · Your progress in each subject is saved on your own device.</footer>
 </div>
 <script>
+/* STUDENT ESSENTIALS LINKS: paste each subject's page address between the quotes.
+   Any subject left blank goes to the Student Essentials home page. */
+var SE_HOME='https://harrisfederation.sharepoint.com/sites/studentEssentials';
+var SE={
+ english:'https://harrisfederation.sharepoint.com/sites/studentEssentials/SitePages/Y11-English.aspx',
+ maths:'https://harrisfederation.sharepoint.com/sites/studentEssentials/SitePages/Maths%20-%20Yr11%20Homepage.aspx',
+ science:'https://harrisfederation.sharepoint.com/sites/studentEssentials/SitePages/Y11-Science(1).aspx',
+ history:'https://www.harrislearninghub.org.uk/lessons/history/gcse',
+ geography:'https://harrisfederation.sharepoint.com/sites/studentEssentials/03%20Year%2011/Forms/AllItems.aspx?id=%2Fsites%2FstudentEssentials%2F03%20Year%2011%2FY11%20Geography',
+ re:'https://harrisfederation.sharepoint.com/sites/studentEssentials/SitePages/Religious-Studies(1).aspx',
+ spanish:'https://harrisfederation.sharepoint.com/sites/studentEssentials/SitePages/Languages.aspx',
+ french:'https://harrisfederation.sharepoint.com/sites/studentEssentials/SitePages/Languages.aspx'
+};
+document.querySelectorAll('a[data-se]').forEach(function(a){var k=a.getAttribute('data-se');a.href=(k!=='home'&&SE[k])?SE[k]:SE_HOME;});
 (function(){
  var home=document.getElementById('home'),screens=document.querySelectorAll('.screen');
  function show(){var id=location.hash.slice(1),hit=false;screens.forEach(function(s){var on=s.id===id;s.hidden=!on;if(on)hit=true;});home.hidden=hit;window.scrollTo(0,0);}
